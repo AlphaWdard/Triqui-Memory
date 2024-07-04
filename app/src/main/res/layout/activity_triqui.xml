@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6961"
+    tools:context=".Triqui">
+
+    <TextView
+        android:id="@+id/lblplayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="52dp"
+        android:text="Jugador1:"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/I"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView8"
+        app:srcCompat="@drawable/circulo_negro" />
+
+    <ImageView
+        android:id="@+id/B"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="162dp"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView10"
+        app:layout_constraintTop_toBottomOf="@+id/lblplayer2"
+        app:srcCompat="@drawable/circulo_negro" />
+
+    <ImageView
+        android:id="@+id/C"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circulo_negro" />
+
+    <ImageView
+        android:id="@+id/G"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="7dp"
+        android:contentDescription="TODO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView8"
+        app:srcCompat="@drawable/circulo_negro" />
+
+    <ImageView
+        android:id="@+id/E"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView9"
+        app:srcCompat="@drawable/circulo_negro" />
+
+    <ImageView
+        android:id="@+id/H"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView8"
+        app:srcCompat="@drawable/circulo_negro" />
+
+    <ImageView
+        android:id="@+id/A"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblempate"
+        app:srcCompat="@drawable/circulo_negro" />
+
+    <ImageView
+        android:id="@+id/D"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView9"
+        app:srcCompat="@drawable/circulo_negro" />
+
+    <ImageView
+        android:id="@+id/F"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView9"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/lblplayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="41dp"
+        android:text="Jugador 2 :"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblplayer1" />
+
+    <TextView
+        android:id="@+id/lblempate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="36dp"
+        android:text="Empate :"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblplayer2" />
+
+    <TextView
+        android:id="@+id/txtplayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="52dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/lblplayer1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtplayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="126dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/lblplayer2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtempate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="194dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/lblempate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView8"
+        android:layout_width="380dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/E"
+        app:srcCompat="@drawable/menos_linea_recta_horizontal" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView9"
+        android:layout_width="380dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/A"
+        app:srcCompat="@drawable/menos_linea_recta_horizontal" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView10"
+        android:layout_width="0dp"
+        android:layout_height="377dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toEndOf="@+id/D"
+        app:layout_constraintTop_toBottomOf="@+id/lblplayer2"
+        app:srcCompat="@drawable/linea__1_" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView11"
+        android:layout_width="0dp"
+        android:layout_height="377dp"
+        android:layout_marginTop="302dp"
+        app:layout_constraintStart_toEndOf="@+id/B"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/linea__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
